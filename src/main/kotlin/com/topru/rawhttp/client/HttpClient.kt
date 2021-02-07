@@ -5,9 +5,6 @@ import rawhttp.core.RawHttpRequest
 import rawhttp.core.RawHttpResponse
 import rawhttp.core.client.TcpRawHttpClient
 import java.lang.IllegalStateException
-import java.net.Socket
-import java.net.URI
-import java.nio.charset.Charset
 
 class HttpClient(
     https: Boolean,
